@@ -41,8 +41,9 @@
         <a class="dropdown-item" href="#">ID</a>
       </div>
     </div>
-    <a href="#"><i class="fa fa-user" aria-hidden="true"></i></a>
-    <a class="btn btn-lg btn-round btn-primary" href="{{url('/contact')}}">Let's Talk</a>
+    <a href="#" class="mr-7"><i class="fa fa-search" aria-hidden="true"></i></a>
+    <a href="#" class="mr-7"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+    <a href="#" class="mr-7"><i class="fa fa-user" aria-hidden="true"></i></a>
 
   </div>
 </nav>

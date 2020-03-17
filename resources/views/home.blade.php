@@ -43,7 +43,6 @@
       <h2>Featured Products</h2>
       <p class="lead">Produce and supply various Handicraft items all over the world which were very attractive</p>
     </header>
-
     <div class="row gap-y">
 
       <?php for($i=1; $i<=3; $i++): ?>
@@ -69,10 +68,23 @@
       <?php endfor; ?>
 
     </div>
-
   </div>
 </section>
 
+<section class="section">
+  <div class="container-fluid row">
+  <div class="col-md bg-secondary pl-7 py-7 bg-home-left">
+      <h6 style="text-transform: uppercase">Discounted Up to <strong>50%</strong></h6>
+      <h1>Zongely Basket</h1>
+      <h6 style="text-transform: uppercase">Limited Time Offer</h6>
+      <span class="text-lg">167Days</span>
+    </div>
+    <div class="col-md bg-primary">
+      <h1>Hai</h1>
+    </div>
+  </div>
+  
+</section>
 
       
 @endsection
