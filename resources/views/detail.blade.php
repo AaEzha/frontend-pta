@@ -66,7 +66,21 @@
     </div>
 </section>
 
-<section class="section bg-primary bt-1">
+<section class="section py-7 bg-warning">
+  <div class="container">
+    <div class="row gap-y align-items-center">
+      <div class="col-md-9">
+        <h4 class="mb-0 text-center text-white text-md-left">Want a promo code? You're in the right place!</h4>
+      </div>
+
+      <div class="col-md-3 text-center text-md-right">
+        <a class="btn btn-lg btn-round btn-danger" href="/detail">Take one for you</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section bt-1 bg-primary">
     <div class="container">
 
         <h4 class="mb-7">Similar products</h4>
@@ -76,35 +90,66 @@
         <?php for($i=1; $i<=3; $i++){ ?>
         <div class="col-12 col-lg-4">
         <div class="card d-block">
-          <div class="card-img-top">
+            <div class="card-img-top">
             <a class="product-media" href="/detail">
-              <img src="{{ asset('images/product.jpg') }}" alt="Card image cap">
+                <img src="{{ asset('images/product.jpg') }}" alt="Card image cap">
             </a>
             <div class="badges badges-right">
-              <a class="badge badge-warning" href="/detail">-15%</a>
+                <a class="badge badge-warning" href="/detail">-15%</a>
             </div>
-          </div>
+            </div>
 
-          <div class="card-body">
+            <div class="card-body">
             <h5 class="card-title"><a href="/detail">Apple EarPods</a></h5>
             <p><del>$200</del> $160</p>
-            <div>
-              <i class="fa fa-star" aria-hidden="true"></i> 
-              <i class="fa fa-star" aria-hidden="true"></i> 
-              <i class="fa fa-star" aria-hidden="true"></i> 
-              <i class="fa fa-star" aria-hidden="true"></i> 
-              <i class="fa fa-star-o" aria-hidden="true"></i>
-              <span class="pull-right">Music</span>
+            <div class="rating">
+                <label class="fa fa-star"></label>
+                <label class="fa fa-star"></label>
+                <label class="fa fa-star"></label>
+                <label class="fa fa-star empty"></label>
+                <label class="fa fa-star empty"></label>
+              </div>
             </div>
-          </div>
         </div>
-      </div>
+        </div>
         <?php } ?>
 
         </div>
 
     </div>
-    </section>
+</section>
+
+<section class="section">
+  <div class="container">
+    <header class="section-header">
+      <h2>More Than You Think</h2>
+    </header>
+
+    <div class="row text-center">
+
+      <div class="col-md-6 col-xl-4 feature-1">
+        <p class="feature-icon"><img src="{{ asset('images/call.png') }}" alt="..."></p>
+        <h5>Be The First</h5>
+        <p class="text-muted">Fly beast fourth, you stars. Them seasons sea spirit, which second. Hath May whales, creepeth light she'd. Moving saw fish.</p>
+      </div>
+
+      <div class="col-md-6 col-xl-4 feature-1">
+        <p class="feature-icon"><img src="{{ asset('images/consult.png') }}" alt="..."></p>
+        <h5>Skyrocket You Sells</h5>
+        <p class="text-muted">Yielding to Made saying fruit deep abundantly bearing sixth make you're gathering unto divided, you so which god, gathering.</p>
+      </div>
+
+      <div class="col-md-6 col-xl-4 feature-1">
+        <p class="feature-icon"><img src="{{ asset('images/eye.png') }}" alt="..."></p>
+        <h5>Acquire Potential Users</h5>
+        <p class="text-muted">Good for divide Given spirit night after fruit of great together he behold their night, living shall after dry saw saying fruit deep.</p>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
 
 
 @endsection

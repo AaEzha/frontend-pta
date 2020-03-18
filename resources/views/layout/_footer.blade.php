@@ -1,6 +1,6 @@
 
       <!-- Footer -->
-      <footer class="footer py-7">
+      <footer class="footer py-7 bg-secondary">
         <div class="container">
           <div class="row gap-y">
 
@@ -52,3 +52,10 @@
       </footer>
       <!-- /.footer -->
 
+      <div id="offcanvas-search" class="offcanvas bg-dark h-auto" data-animation="slide-down">
+        <div class="row">
+          <form class="col-md-8 mx-auto input-glass">
+            <input class="form-control form-control-lg" type="text" placeholder="Search...">
+          </form>
+        </div>
+      </div>

@@ -34,16 +34,9 @@
       </ul>
     </section>
     
-    <div class="dropdown d-none d-lg-block mx-6">
-      <span class="dropdown-toggle" data-toggle="dropdown">EN</span>
-      <div class="dropdown-menu">
-        <a class="dropdown-item" href="#">EN</a>
-        <a class="dropdown-item" href="#">ID</a>
-      </div>
-    </div>
-    <a href="#" class="mr-7"><i class="fa fa-search" aria-hidden="true"></i></a>
-    <a href="#" class="mr-7"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
-    <a href="#" class="mr-7"><i class="fa fa-user" aria-hidden="true"></i></a>
+    <a href="#" class="mr-7 text-dark" data-toggle="offcanvas" data-target="#offcanvas-search"><i class="fa fa-search" aria-hidden="true"></i></a>
+    <a href="#" class="mr-7 text-dark"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+    <a href="#" class="mr-7 text-dark"><i class="fa fa-user" aria-hidden="true"></i></a>
 
   </div>
 </nav>

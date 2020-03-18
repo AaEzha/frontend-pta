@@ -6,12 +6,12 @@
 
 @section('content')
 
-<section class="section">
+<section class="section bg-primary">
   <div class="container-fluid">
-    <div class="row bg-secondary">
+    <div class="row">
       <div class="col-md">
         <div data-provide="slider" data-arrows="true">
-          <div class="bg-secondary"><img src="{{ asset('images/slider.jpg')}}"></div>
+          <div><img src="{{ asset('images/slider.jpg')}}"></div>
           <div><img src="{{ asset('images/slider.jpg')}}"></div>
           <div><img src="{{ asset('images/slider.jpg')}}"></div>
           <div><img src="{{ asset('images/slider.jpg')}}"></div>
@@ -42,7 +42,7 @@
   </div>
 </section>
 
-<section class="section">
+<section class="section bg-secondary">
   <div class="container-fluid px-7">
     <header class="section-header">
       <h2>Featured Products</h2>
@@ -109,7 +109,7 @@
       </div>
 
       <div class="col-md-3 text-center text-md-right">
-        <a class="btn btn-lg btn-round btn-info" href="/detail">Take one for you</a>
+        <a class="btn btn-lg btn-round btn-danger" href="/detail">Take one for you</a>
       </div>
     </div>
   </div>
@@ -155,6 +155,37 @@
       </div>
       <?php endfor; ?>
     </div>
+  </div>
+</section>
+
+<section class="section bg-primary">
+  <div class="container">
+    <header class="section-header">
+      <h2>More Than You Think</h2>
+    </header>
+
+    <div class="row text-center">
+
+      <div class="col-md-6 col-xl-4 feature-1">
+        <p class="feature-icon"><img src="{{ asset('images/call.png') }}" alt="..."></p>
+        <h5>Be The First</h5>
+        <p class="text-muted">Fly beast fourth, you stars. Them seasons sea spirit, which second. Hath May whales, creepeth light she'd. Moving saw fish.</p>
+      </div>
+
+      <div class="col-md-6 col-xl-4 feature-1">
+        <p class="feature-icon"><img src="{{ asset('images/consult.png') }}" alt="..."></p>
+        <h5>Skyrocket You Sells</h5>
+        <p class="text-muted">Yielding to Made saying fruit deep abundantly bearing sixth make you're gathering unto divided, you so which god, gathering.</p>
+      </div>
+
+      <div class="col-md-6 col-xl-4 feature-1">
+        <p class="feature-icon"><img src="{{ asset('images/eye.png') }}" alt="..."></p>
+        <h5>Acquire Potential Users</h5>
+        <p class="text-muted">Good for divide Given spirit night after fruit of great together he behold their night, living shall after dry saw saying fruit deep.</p>
+      </div>
+
+    </div>
+
   </div>
 </section>
 
