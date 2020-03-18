@@ -16,4 +16,7 @@ mix.js("resources/js/app.js", "public/js")
     //  templates themes thesass
     .sass("resources/plugins/thesass/scss/page.scss", "public/css")
     .js("resources/plugins/thesass/js/src/page.js", "public/js")
-    .browserSync("http://localhost:8000/");
+    .browserSync("http://127.0.0.1:8000/")
+    .options({
+        processCssUrls: false
+    });

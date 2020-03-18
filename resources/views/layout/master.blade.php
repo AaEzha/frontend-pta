@@ -11,8 +11,8 @@
     {{-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous"> --}}
     <!-- Styles -->
-    <link href="{{ asset('css/page.css') }}" rel="stylesheet" type="text/css">
     <link href="{{ asset('css/app.css') }}" rel="stylesheet" type="text/css">
+    <link href="{{ asset('css/page.css') }}" rel="stylesheet" type="text/css">
     @yield('content_head')
 </head>
 
@@ -25,8 +25,8 @@
 
     </main>
     @include('layout._footer')
-    <script src="{{ asset('js/page.js') }}"></script>
     <script src="{{ asset('js/app.js') }}"></script>
+    <script src="{{ asset('js/page.js') }}"></script>
 
     {{-- <script src="{{ asset('js/app.js') }}"></script> --}}
     <script>
