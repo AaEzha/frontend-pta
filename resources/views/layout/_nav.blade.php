@@ -16,10 +16,10 @@
       <ul class="nav nav-navbar w-100">
 
         <li class="nav-item nav-mega">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item nav-mega">
-          <a class="nav-link" href="#">Shop</a>
+          <a class="nav-link" href="/products">Shop</a>
         </li>
         <li class="nav-item nav-mega">
           <a class="nav-link" href="#">Pages</a>
@@ -35,8 +35,8 @@
     </section>
     
     <a href="#" class="mr-7 text-dark" data-toggle="offcanvas" data-target="#offcanvas-search"><i class="fa fa-search" aria-hidden="true"></i></a>
-    <a href="#" class="mr-7 text-dark"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
-    <a href="#" class="mr-7 text-dark"><i class="fa fa-user" aria-hidden="true"></i></a>
+    <a href="#" class="mr-7 text-dark" data-toggle="offcanvas" data-target="#offcanvas-cart"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
+    <a href="/register" class="mr-7 text-dark"><i class="fa fa-user" aria-hidden="true"></i></a>
 
   </div>
 </nav>

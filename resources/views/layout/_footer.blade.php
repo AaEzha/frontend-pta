@@ -59,3 +59,10 @@
           </form>
         </div>
       </div>
+
+      <div id="offcanvas-cart" class="offcanvas bg-secondary" data-animation="slide-left">
+        <button type="button" class="close" data-dismiss="offcanvas" aria-label="Close" style="z-index:99">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        @include('cart')
+      </div>

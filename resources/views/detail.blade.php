@@ -55,7 +55,7 @@
                 </div>
 
                 <div class="col form-group">
-                <button class="btn btn-block btn-primary h-100">Add to cart</button>
+                <a class="btn btn-block btn-primary h-100" data-toggle="offcanvas" data-target="#offcanvas-cart">Add to cart</a>
                 </div>
             </div>
             </form>

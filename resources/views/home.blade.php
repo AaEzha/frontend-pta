@@ -7,12 +7,10 @@
 @section('content')
 
 <section class="section bg-primary">
-  <div class="container-fluid">
+  <div class="mx-0">
     <div class="row">
       <div class="col-md">
         <div data-provide="slider" data-arrows="true">
-          <div><img src="{{ asset('images/slider.jpg')}}"></div>
-          <div><img src="{{ asset('images/slider.jpg')}}"></div>
           <div><img src="{{ asset('images/slider.jpg')}}"></div>
           <div><img src="{{ asset('images/slider.jpg')}}"></div>
         </div>

@@ -20,3 +20,14 @@ Route::get('/', function () {
 Route::get('/detail', function () {
     return view('detail');
 });
+
+Route::get('/products', function () {
+    return view('products');
+});
+
+Route::get('/checkout', function () {
+    return view('checkout');
+});
+Route::get('/thank-you', function () {
+    return view('thank');
+});
