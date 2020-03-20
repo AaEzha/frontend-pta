@@ -36,7 +36,7 @@
     
     <a href="#" class="mr-7 text-dark" data-toggle="offcanvas" data-target="#offcanvas-search"><i class="fa fa-search" aria-hidden="true"></i></a>
     <a href="#" class="mr-7 text-dark" data-toggle="offcanvas" data-target="#offcanvas-cart"><i class="fa fa-shopping-bag" aria-hidden="true"></i></a>
-    <a href="/register" class="mr-7 text-dark"><i class="fa fa-user" aria-hidden="true"></i></a>
+    <a href="/login" class="mr-7 text-dark"><i class="fa fa-user" aria-hidden="true"></i></a>
 
   </div>
 </nav>

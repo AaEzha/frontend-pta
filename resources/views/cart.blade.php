@@ -1,7 +1,7 @@
 <section class="section bg-primary">
     <div class="container">
 
-        <h1 class="display-4">Cart Overview</h1>
+        <h1 class="display-4">Mini Cart</h1>
 
         <form class="row">
         <div class="col-lg-8">
@@ -28,7 +28,7 @@
 
                     <td>
                         <label>Quantity</label>
-                        <input class="form-control form-control-sm" type="text" placeholder="Quantity" value="1">
+                        <p>2</p>
                     </td>
 
                     <td>
@@ -69,16 +69,6 @@
                 <div>
                 <p class="fw-600">$790</p>
                 </div>
-            </div>
-            </div>
-
-            <div class="row">
-            <div class="col-6">
-                <a class="btn btn-block btn-warning" href="/products">Shop more</a>
-            </div>
-
-            <div class="col-6">
-                <a class="btn btn-block btn-success" href="/checkout">Proceed <i class="ti-angle-right fs-9"></i></a>
             </div>
             </div>
 

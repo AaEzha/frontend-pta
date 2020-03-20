@@ -342,8 +342,12 @@
 @section('content_footer')
 <script type="text/javascript">
   $('#ship-box-info').hide();
+  $('#cbox-info').hide();
 	$('#ship-box').click(function(){
 		$('#ship-box-info').toggle();
+	});
+  $('#cbox').click(function(){
+		$('#cbox-info').toggle();
 	});
 </script>    
 @endsection

@@ -28,6 +28,11 @@ Route::get('/products', function () {
 Route::get('/checkout', function () {
     return view('checkout');
 });
+
 Route::get('/thank-you', function () {
     return view('thank');
 });
+
+Route::get('/cart', 'CartController@index');
+Route::get('/login', 'UserController@index');
+Route::get('/my-account', 'UserController@profil');
